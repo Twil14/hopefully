@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your DIY Page</title>
+    <style>
+        /* Font styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        /* Header styles */
+        #header-styles {
+            background-color: #d65b5b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        /* Navigation styles */
+        #navigation-styles {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Section styles */
+        #section-styles {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            text-align: center;
+        }
+
+        /* List styles */
+        ol, ul {
+            margin: 10px;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Center image horizontally */
+        }
+
+        /* YouTube video styles */
+        iframe {
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Anchor styles */
+        a {
+            color: #d65b5b;
+            text-decoration: none;
+        }
+
+        /* Tableau container styles */
+        #tableau-container-styles {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: #dba1a1;">
+
+    <div id="header-styles">
+        <h1>My Vision Board</h1>
+        <!-- Navigation links to professional-looking pages -->
+        <div id="navigation-styles">
+            <nav>
+                <ul>
+                    <li><a href="file:///C:/Users/twilc/OneDrive/Desktop/final/index.html#Goals">Bootstrap Page 1</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="section-styles">
+        <h2>My Goals</h2>
+        
+        <!-- Ordered list with an embedded unordered list -->
+        <ol>
+            <li>Lose 20 pounds</li>
+            <ul>
+                <li>Meal Prep and Eat Healthy</li>
+                <li>Exercise Daily</li>
+            </ul>
+            <li>Read Scriptures 21 Days in a Row</li>
+            <li>Keep A Clean Room</li>
+            <li>Make enough money from my business to pay for tuition</li>
+            <li>Buy a motorcycle</li>
+        </ol>
+
+        <!-- First Image -->
+        <img src="https://pbs.twimg.com/profile_images/427897428273283072/t3YitorT.jpeg" alt="Rocky">
+
+        <!-- Second Image - Centered -->
+        <img src="https://i.pinimg.com/564x/99/69/2e/99692e569813f7a7fea21e3e48ce2ad5.jpg" alt="Meal Prep" style="align-self: center;">
+
+        <!-- Embedded YouTube video -->
+        <iframe width="1200" height="800" src="https://www.youtube.com/embed/hS5CfP8n_js" frameborder="0" allowfullscreen></iframe>
+
+        <!-- On-page anchor -->
+        <p><a href="#">Jump to Top</a></p>
+    </div>
+
+    <div id="tableau-container-styles">
+        <!-- Link to your Tableau graph (replace with your actual Tableau link) -->
+        <div class="tableau-container">
+            <a href="your_tableau_link" target="_blank">Explore the Tableau Graph</a>
+        </div>
+    </div>
+
+    <!-- JavaScript might be required for Tableau embedding -->
+    <script src="https://your-tableau-script.js"></script>
+
+</body>
+</html>
